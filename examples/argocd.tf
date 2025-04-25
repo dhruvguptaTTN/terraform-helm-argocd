@@ -5,7 +5,7 @@ module "argocd" {
   helm_services = [
     {
       name          = "argocd"
-      chart_version = "5.16.1"
+      chart_version = "7.8.28"
       release_name  = "argo-cd"
       settings = {
         "server" = {
